@@ -8975,9 +8975,9 @@
 	          React.createElement(
 	            'p',
 	            null,
-	            'I\'m Jesse and I\'m a frontend dev.'
+	            'I\'m Phumudzo and I\'m a software developer.'
 	          ),
-	          React.createElement('img', { src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1055214/jesse.png' }),
+	          React.createElement('img', { src: 'data/meready.png' }),
 	          React.createElement(
 	            'h1',
 	            null,
@@ -8995,7 +8995,7 @@
 	              { viewBox: '0 0 100 100', xmlns: 'http://www.w3.org/2000/svg' },
 	              React.createElement('circle', { cx: '50', cy: '50', r: '50' })
 	            ),
-	            React.createElement('img', { src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1055214/jesse-cartoon.png' })
+	            React.createElement('img', { src: 'data/meart.png' })
 	          ),
 	          React.createElement(
 	            'div',
@@ -9008,12 +9008,12 @@
 	            React.createElement(
 	              'p',
 	              null,
-	              'I\'ve been living in San Francisco for the last two years. I\'m currenlty working in-house at a large Cupertino tech company that likes to keep the details of their work \uD83E\uDD2B. Unfortunately, that means I don\'t have much recent work to show, but I promise it exists, and it\'s cool stuff!'
+	              'I\'ve been living in  South Africa, Gauteng for the past two years. I\'m currently contracting at a large tech company based in Johannesburg that likes to keep the details of their work \uD83E\uDD2B. Unfortunately, that means I don\'t have much recent work to show. However, I\'m freelancing and learning a lot of cool stuff on the way'
 	            ),
 	            React.createElement(
 	              'a',
-	              { href: 'https://codepen.io/jesseaborden/' },
-	              'Check out my codepen \u203A'
+	              { href: 'https://www.behance.net/pamuvhango2724' },
+	              'Check out my Behance >'
 	            )
 	          )
 	        ),
@@ -9026,18 +9026,14 @@
 	            React.createElement(
 	              'h2',
 	              null,
-	              'Music'
+	              'Technology'
 	            ),
 	            React.createElement(
 	              'p',
 	              null,
-	              'I also like to play music, and I am currently working on a home recorded EP.'
+	              ' I\'m currently working a lot of mobile projects using Flutter but I\'m also able to work with native Android and iOS. I can also develop for the Web using Angular or React hooked to a proper back-end architecture using various cloud services. I am also a designer by heart, designing Mobile apps and Websites using Adobe XD.'
 	            ),
-	            React.createElement(
-	              'a',
-	              { href: 'https://soundcloud.com/thetreehouseproject' },
-	              'Check out my SoundCloud \u203A'
-	            )
+	            
 	          ),
 	          React.createElement(
 	            'div',
@@ -9047,7 +9043,7 @@
 	              { viewBox: '0 0 100 100', xmlns: 'http://www.w3.org/2000/svg' },
 	              React.createElement('circle', { cx: '50', cy: '50', r: '50' })
 	            ),
-	            React.createElement('img', { src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1055214/IMG_0168.PNG' })
+	            React.createElement('img', { src: 'data/mytech.png' })
 	          )
 	        )
 	      );

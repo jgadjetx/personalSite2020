@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -11,7 +8,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -88,9 +85,19 @@ nav li {
   background: #FCF9A8;
 }
 
+
 #welcome {
   position: relative;
   height: calc(100vh - 73px);
+}
+
+@font-face {
+  font-family: "myFutura";
+  src: url("futura.ttf");
+}
+
+.futura {
+  font-family: "myFutura";
 }
 
 #welcome p {
@@ -103,11 +110,12 @@ nav li {
   right: calc(50vw - 400px);
   opacity: 1;
 	-webkit-animation: flash 2.5s;
-	animation: flash 2.5s;
+  animation: flash 2.5s;
+  font-family: 'Futura';
 }
 
 #welcome h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Futura';
   font-size: 288px;
   font-weight: bolder;
   text-align: center;
@@ -149,9 +157,11 @@ nav li {
 
 @media (max-width: 868px) {
   #welcome h1 {
+    font-family: 'Futura';
     font-size: 124px;
   }
   #welcome p {
+    font-family: 'Futura';
     width: 240px;
     right: calc(50vw - 190px);
     bottom: 250px;
@@ -170,6 +180,7 @@ nav li {
 
 #about,
 #music {
+  font-family: 'Futura';
   background: #fff;
   height: 800px;
   display: -ms-flexbox;
@@ -212,6 +223,7 @@ nav li {
 
 #about .text,
 #music .text {
+  font-family: 'Futura';
   margin: auto 0 auto 150px;
   width: 400px;
   max-width: 550px;
@@ -219,18 +231,21 @@ nav li {
 
 #about .text h2,
 #music .text h2 {
+  font-family: 'Futura';
   font-size: 2rem;
   font-weight: bold;
 }
 
 #about .text p,
 #music .text p {
+  font-family: 'Futura';
   line-height: 25px;
   margin-top: 18px;
 }
 
 #about .text a,
 #music .text a {
+  font-family: 'Futura';
   display: block;
   margin-top: 18px;
   font-weight: 500;
@@ -244,6 +259,7 @@ nav li {
   }
   #about .text,
   #music .text {
+    font-family: 'Futura';
     margin: auto 0 auto 95px;
   }
   #about svg,
@@ -279,12 +295,14 @@ nav li {
   }
   #about .text,
   #music .text {
+    font-family: 'Futura';
     margin: 100px 0 0 0;
     width: 85%;
   }
 }
 
 #music .text {
+  font-family: 'Futura';
   margin: auto 150px auto 0;
 }
 
@@ -295,6 +313,7 @@ nav li {
 
 @media (max-width: 1300px) {
   #music .text {
+    font-family: 'Futura';
     margin: auto 95px auto 0;
   }
   #music .graphic img {
@@ -309,6 +328,7 @@ nav li {
         flex-direction: column-reverse;
   }
   #music .text {
+    font-family: 'Futura';
     margin: 100px 0 0 0;
   }
 }
