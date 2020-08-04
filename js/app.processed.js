@@ -9008,7 +9008,7 @@
 	            React.createElement(
 	              'p',
 	              null,
-	              'I\'ve been living in  South Africa, Gauteng for the past two years. I\'m currently contracting at a large tech company based in Johannesburg that likes to keep the details of their work \uD83E\uDD2B. Unfortunately, that means I don\'t have much recent work to show. However, I\'m freelancing and learning a lot of cool stuff on the way'
+	              'I\'ve been living in  South Africa, Gauteng for the past two years. I\'m currently contracting at a large tech company based in Johannesburg that likes to keep the details of their work \uD83E\uDD2B. Unfortunately, that means I don\'t have much recent work to show. However, I\'m freelancing and learning a lot of cool stuff along the way'
 	            ),
 	            React.createElement(
 	              'a',
@@ -9031,7 +9031,7 @@
 	            React.createElement(
 	              'p',
 	              null,
-	              ' I\'m currently working a lot of mobile projects using Flutter but I\'m also able to work with native Android and iOS. I can also develop for the Web using Angular or React hooked to a proper back-end architecture using various cloud services. I am also a designer by heart, designing Mobile apps and Websites using Adobe XD.'
+	              'So, I\'m currently working on a lot of mobile projects using Flutter but I\'m also flexible with native Android and iOS, I also build for the web, mostly using Angular.js and React. Besides that , I can also work with various cloud services. So I\'ve recently picked up intrest in 3D Modeling using Autodesk Fusion 360, and I plan to build my own 3D printer someday. So with that said, I\'ve got a very detailed eye for design and I design user experiances\' for mobile and the web. I hope to have a business and personal relationship with you someday. Have a great day and further. '
 	            ),
 	            
 	          ),
