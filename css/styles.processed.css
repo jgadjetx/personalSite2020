@@ -189,7 +189,7 @@ nav li {
 }
 
 #about,
-#music {
+#tech {
   font-family: 'Futura';
   background: #fff;
   height: 800px;
@@ -203,20 +203,20 @@ nav li {
 }
 
 #about.ready,
-#music.ready {
+#tech.ready {
   opacity: 0;
   transform: translateY(150px);
 }
 
 #about .graphic,
-#music .graphic {
+#tech .graphic {
   display: -ms-flexbox;
   display: flex;
   position: relative;
 }
 
 #about svg,
-#music svg {
+#tech svg {
   fill: #FCF9A8;
   width: 600px;
   margin: auto;
@@ -224,7 +224,7 @@ nav li {
 }
 
 #about img,
-#music img {
+#tech img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -233,7 +233,7 @@ nav li {
 }
 
 #about .text,
-#music .text {
+#tech .text {
   font-family: 'Futura';
   margin: auto 0 auto 150px;
   width: 400px;
@@ -241,21 +241,21 @@ nav li {
 }
 
 #about .text h2,
-#music .text h2 {
+#tech .text h2 {
   font-family: 'Futura';
   font-size: 2rem;
   font-weight: bold;
 }
 
 #about .text p,
-#music .text p {
+#tech .text p {
   font-family: 'Futura';
   line-height: 25px;
   margin-top: 18px;
 }
 
 #about .text a,
-#music .text a {
+#tech .text a {
   font-family: 'Futura';
   display: block;
   margin-top: 18px;
@@ -265,27 +265,27 @@ nav li {
 
 @media (max-width: 1300px) {
   #about,
-  #music {
+  #tech {
     height: 530px;
   }
   #about .text,
-  #music .text {
+  #tech .text {
     font-family: 'Futura';
     margin: auto 0 auto 95px;
   }
   #about svg,
-  #music svg {
+  #tech svg {
     width: 350px;
   }
   #about img,
-  #music img {
+  #tech img {
     width: 300px;
   }
 }
 
 @media (max-width: 868px) {
   #about,
-  #music {
+  #tech {
     -ms-flex-direction: column;
         flex-direction: column;
     -ms-flex-align: center;
@@ -296,49 +296,49 @@ nav li {
     padding: 125px 0 75px 0;
   }
   #about .graphic,
-  #music .graphic {
+  #tech .graphic {
     height: 330px;
   }
   #about svg,
-  #music svg {
+  #tech svg {
     margin: auto;
     width: 330px;
   }
   #about .text,
-  #music .text {
+  #tech .text {
     font-family: 'Futura';
     margin: 100px 0 0 0;
     width: 85%;
   }
 }
 
-#music .text {
+#tech .text {
   font-family: 'Futura';
   margin: auto 150px auto 0;
 }
 
-#music .graphic img {
+#tech .graphic img {
   left: 58%;
   width: 700px;
 }
 
 @media (max-width: 1300px) {
-  #music .text {
+  #tech .text {
     font-family: 'Futura';
     margin: auto 95px auto 0;
   }
-  #music .graphic img {
+  #tech .graphic img {
     width: 400px;
   }
 }
 
 @media (max-width: 868px) {
-  #music {
+  #tech {
     padding-top: 50px;
     -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
   }
-  #music .text {
+  #tech .text {
     font-family: 'Futura';
     margin: 100px 0 0 0;
   }

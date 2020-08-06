@@ -8924,10 +8924,10 @@
 	    var _this = _possibleConstructorReturn(this, (Page.__proto__ || Object.getPrototypeOf(Page)).call(this, props));
 
 	    _this.about = React.createRef();
-	    _this.music = React.createRef();
+	    _this.tech = React.createRef();
 	    _this.state = {
 	      aboutActive: 'ready',
-	      musicActive: 'ready',
+	      techActive: 'ready',
 	      loaded: 'ready'
 	    };
 	    return _this;
@@ -8938,7 +8938,7 @@
 	    value: function componentDidMount() {
 	      var _this2 = this;
 
-	      var music = this.music.current;
+	      var tech = this.tech.current;
 	      var about = this.about.current;
 	      document.body.style.background = '#fff';
 	      var options = {
@@ -8952,16 +8952,16 @@
 	          if (!obs[0].isIntersecting) return;
 	          _this2.setState({ aboutActive: 'active' });
 	          observer.unobserve(about);
-	        } else if (target === music) {
+	        } else if (target === tech) {
 	          if (!obs[0].isIntersecting) return;
-	          _this2.setState({ musicActive: 'active' });
-	          observer.unobserve(music);
+	          _this2.setState({ techActive: 'active' });
+	          observer.unobserve(tech);
 	        }
 	      };
 
 	      var observer = new IntersectionObserver(callBack, options);
 	      observer.observe(about);
-	      observer.observe(music);
+	      observer.observe(tech);
 	    }
 	  }, {
 	    key: 'render',
@@ -9019,7 +9019,7 @@
 	        ),
 	        React.createElement(
 	          'section',
-	          { id: 'music', ref: this.music, className: this.state.musicActive },
+	          { id: 'tech', ref: this.tech, className: this.state.techActive },
 	          React.createElement(
 	            'div',
 	            { className: 'text' },
